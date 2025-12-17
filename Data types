@@ -178,3 +178,36 @@ print("Age is %d" % 25)
 
 age = 25
 print(f"Age is {age}")
+
+
+🐍 Python Type Conversion and Operators
+
+🔄 Type Conversion in Python
+
+Type conversion refers to converting one data type into another.
+
+(i) Implicit Type Conversion
+
+Performed automatically by Python
+
+Converts one data type to another without user involvement
+
+
+a = 10
+b = 2.5
+c = a + b   # int is converted to float
+print(c)
+
+
+---
+
+(ii) Explicit Type Conversion
+
+Performed manually by the user
+
+Uses built-in functions like int(), float(), str(), list(), etc.
+
+
+a = "10"
+b = int(a)
+print(b)
