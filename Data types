@@ -1,0 +1,180 @@
+🐍 Python Data Types and Print Statements
+
+📦 Data Types
+
+Python provides several built-in data types, grouped into the following categories:
+
+1.Text Type: str
+
+2.Numeric Types: int, float, complex
+
+3.Sequence Types: list, tuple, range
+
+4.Mapping Type: dict
+
+5.Set Types: set, frozenset
+
+6.Boolean Type: bool
+
+7.Binary Types: bytes, bytearray, memoryview
+
+8.None Type: NoneType
+
+
+
+---
+
+📝 Text Data Type
+
+1.String (str)
+
+Represents a sequence of characters
+
+Enclosed in single, double, or triple quotes
+
+
+name = "John"
+
+
+---
+
+🔢 Numeric Data Types
+
+1.Integer (int)
+
+Represents whole numbers
+
+
+a = 10
+b = -5
+
+2.Float (float)
+
+Represents decimal or floating-point values
+
+
+x = 3.14
+y = -2.5
+
+3.Complex (complex)
+
+Represents complex numbers
+
+
+c = 3 + 4j
+
+
+---
+
+📚 Sequence Data Types
+
+1.Tuple
+
+Ordered
+
+Immutable (cannot be changed)
+
+Enclosed in parentheses ()
+
+
+t = (1, 2, 3)
+
+2.List
+
+Ordered
+
+Mutable (can be changed)
+
+Enclosed in square brackets []
+
+
+l = [1, 2, 3]
+
+
+---
+
+🗂 Mapping Data Type
+
+1.Dictionary (dict)
+
+Stores data in key-value pairs
+
+Enclosed in curly braces {}
+
+
+student = {
+    "name": "John",
+    "age": 30
+}
+
+
+---
+
+🔹 Set Data Types
+
+1.Set
+
+Unordered collection
+
+Stores unique elements
+
+
+s = {1, 2, 3}
+
+
+---
+
+🔁 Boolean Data Type
+
+1.Boolean (bool)
+
+Represents logical values
+
+Can be either True or False
+
+Used in conditions and control flow
+
+
+is_active = True
+
+
+---
+
+🚫 None Data Type
+
+1.None
+
+Represents the absence of a value
+
+Similar to a null value
+
+
+result = None
+
+
+---
+
+🖨 Print Statements in Python
+
+Different ways to print output in Python:
+
+1️⃣ Using comma ,
+
+Adds a space automatically.
+
+print("Age is", 25)
+
+2️⃣ Using +
+
+Used for string concatenation.
+
+print("Age is " + "25")
+
+3️⃣ Using format specifiers
+
+print("Age is %d" % 25)
+
+4️⃣ Using f-strings
+
+age = 25
+print(f"Age is {age}")
