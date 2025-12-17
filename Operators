@@ -14,16 +14,15 @@ Python supports 7 types of operators:
 
 
 1️⃣ Arithmetic Operators
-
-Used to perform mathematical operations.
+        Used to perform mathematical operations.
 
 Operator	Description
 
 1. +	Addition
 2. -	Subtraction
 3. *	Multiplication
-4. /	Division (returns float)
-5. //	Floor Division
+4. /	Division (returns float) 
+5. //	Floor Division (returns integer)
 6. %	Modulus (remainder)
 7. **	Exponentiation
 
@@ -37,8 +36,7 @@ print(a ** b)
 
 
 2️⃣ Assignment Operators
-
-Used to assign values to variables.
+        Used to assign values to variables.
 
 Operator	Example	Meaning
 
@@ -53,8 +51,7 @@ Operator	Example	Meaning
 
 
 3️⃣ Comparison Operators
-
-Used to compare two values.
+          Used to compare two values.
 
 Operator	Description
 
@@ -66,15 +63,13 @@ Operator	Description
 6. <=	Less than or equal to
 
 Example:
-
 a = 10
 b = 20
 print(a < b)
 
 
 4️⃣ Logical Operators
-
-Used to combine conditional statements.
+          Used to combine conditional statements.
 
 Operator	Description
 
@@ -83,15 +78,13 @@ Operator	Description
 not	Reverses the result
 
 Example:
-
 a = True
 b = False
 print(a and b)
 
 
 5️⃣ Membership Operators
-
-Used to test if a value exists in a sequence.
+          Used to test if a value exists in a sequence.
 
 Operator	Description
 
@@ -104,8 +97,7 @@ print(2 in nums)
 
 
 6️⃣ Identity Operators
-
-Used to compare memory location of objects.
+          Used to compare memory location of objects.
 
 Operator	Description
 
@@ -119,8 +111,7 @@ print(a is b)
 
 
 7️⃣ Bitwise Operators
-
-Used to perform operations at bit level.
+          Used to perform operations at bit level.
 
 Operator	Description
 
@@ -148,10 +139,6 @@ print(a & b)
 8. |
 9. Comparison operators
 10. not
-
-
 11. and
-
-
 12. or
 13.
