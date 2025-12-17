@@ -62,6 +62,10 @@ Used for web development, software development, and machine learning
 Enables building a wide range of projects
 
 
+
+
+
+
 🔑 Python Keywords
 
 Keywords are predefined, reserved words in Python that have special meanings and cannot be used as variable names, function names, or identifiers.
