@@ -12,48 +12,36 @@ True, False, async, await, class, elif, else, finally, if,
 import, is, not, pass, return, with
 
 
----
-
 🆔 Identifiers
 
 Identifiers are the names given to entities such as variables, functions, and classes.
 
 Types of Identifiers
 
-Variable Identifier
+1. Variable Identifier
 
-age = 25
+        age = 25
 
-Function / Method Identifier
+2. Function / Method Identifier
 
-def calculate_area(length, width):
-    return length * width
+       def calculate_area(length, width):
+           return length * width
 
-Class Identifier
+3. Class Identifier
 
-class Student:
-    pass
+      class Student:
+         pass
 
-
----
 
 📏 Rules for Identifiers
 
 Must start with a letter or underscore (_)
-
 Can contain letters, digits, and underscores
-
 Cannot start with a digit
-
 No special characters (@, #, $, etc.)
-
 Case-sensitive (age, Age, AGE are different)
-
 Cannot use Python keywords
 
-
-
----
 
 🔄 Variables vs Identifiers
 
@@ -67,8 +55,6 @@ Example:
 a = 10
 
 
----
-
 🔒 Constants
 
 Constants are a special type of variable whose value should not be changed during program execution.
@@ -80,19 +66,17 @@ PI = 3.14
 (Note: Python does not enforce constants, but uppercase names are used by convention.)
 
 
----
-
 🧱 Literals
 
 Literals are fixed values used directly in a program.
 
 Types of Literals:
 
-Numeric literals
+1.Numeric literals
 
-Character literals
+2.Character literals
 
-String literals
+3.String literals
 
 
 Examples:
