@@ -1,0 +1,93 @@
+📌 Python Set
+
+🔹 Definition
+    A set represents an unordered collection of unique elements, enclosed in curly braces {}.
+Example:
+s = {1, 2, 3}
+
+
+🔹 Characteristics of Set
+
+Stores unique values only
+Unordered (no fixed position)
+Does not support indexing
+No slicing or skipping
+Mutable (can be modified)
+Does not allow duplicate values
+Can store only immutable data types
+
+
+✅ Allowed: int, float, string, tuple
+❌ Not allowed: list, set, dictionary
+
+
+🔹 Example (Order not guaranteed)
+
+a = {10, 30, 50, 20}
+print(a)
+Output (random order):
+{50, 30, 20, 10}
+
+
+🔧 Set Built-in Functions
+
+1️⃣ add()
+      Adds one element to the set.
+Example:
+f = {10, 50, 9, 19}
+f.add(500)
+print(f)
+
+2️⃣ update()
+      Adds multiple elements to the set.
+Example:
+f = {10, 50, 9, 19}
+f.update([100, 200, 500])
+print(f)
+
+3️⃣ pop()
+    Removes one random element.
+Example:
+f = {10, 50, 9, 19}
+f.pop()
+print(f)
+
+4️⃣ discard()
+    Removes an element without error if value is missing.
+Example:
+f = {10, 50, 9, 19}
+f.discard(50)
+print(f)
+
+5️⃣ remove()
+      Removes an element, throws error if value not found.
+Example:
+f = {10, 50, 9, 19}
+f.remove(50)
+print(f)
+
+6️⃣ union()
+      Combines two sets.
+Example:
+a = {1,2,3,4,5,6}
+b = {5,6,7,8,9,10}
+print(a.union(b))
+
+7️⃣ intersection()
+        Returns common values.
+Example:
+print(a.intersection(b))
+
+8️⃣ copy()
+      Creates a copy of the set.
+Example:
+a = {10, 50, 90, 100}
+b = a.copy()
+print(a, b)
+
+9️⃣ clear()
+    Removes all elements.
+Example:
+a = {10, 20, 30, 50}
+a.clear()
+print(a)
