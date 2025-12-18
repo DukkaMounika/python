@@ -1,0 +1,75 @@
+📦 Python Tuples
+
+📌 Introduction
+
+A tuple is a built-in data type in Python used to store multiple values in a single variable.
+Any values written inside parentheses () are considered a tuple.
+
+🧾 Tuple Characteristics
+
+Tuples are written using parentheses ()
+
+Can store multiple data types:
+
+int
+float
+string
+boolean
+
+Supports:
+
+Indexing
+Slicing
+Skipping
+
+
+Memory allocation behavior is similar to strings and lists
+
+Tuples are immutable (cannot be changed after creation)
+
+
+🧪 Example
+t = (10, 20, 30)
+print(t)
+Output:
+(10, 20, 30)
+
+
+🔧 Built-in Functions in Tuple
+
+Python provides limited built-in functions for tuples:
+
+1️⃣ count()
+      Returns the number of times a value appears in a tuple.
+Example:
+t = (1, 2, 2, 3)
+print(t.count(2))
+
+2️⃣ index()
+    Returns the index position of the first occurrence of a value.
+Example:
+t = (10, 20, 30)
+print(t.index(20))
+
+✅ Advantage of Tuples
+
+Tuples are useful when multiple values are assigned to a single variable
+Python automatically converts them into a tuple
+
+Example:
+a = 10, 20, 30
+print(a)
+Output:
+(10, 20, 30)
+
+
+🎒 Packing and Unpacking
+
+Packing
+
+t = 1, 2, 3
+
+Unpacking
+
+a, b, c = t
+print(a, b, c)
