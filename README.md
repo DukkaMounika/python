@@ -1,0 +1,112 @@
+🐍 Python Lists
+
+1. Introduction to Python Lists
+
+Definition of a list
+
+Representation using square brackets []
+Ability to store multiple data types
+Mutability of lists
+
+2. Why Lists Are Mutable
+
+Explanation of memory behavior
+
+Role of Python built-in functions for modifying lists
+
+
+
+3. List Built-in Functions
+
+Categorize into:
+  Addition methods: append(), extend(), insert()
+  Deletion methods: pop(), remove(), clear()
+  Other common operations: index(), count(), sort(), reverse(), copy()
+
+📌 Python List Built-in Functions – Examples
+
+1️⃣ append()
+      Adds one element at the end of the list.
+Example:
+a = [10, 20, 30]
+a.append(40)
+print(a)
+Output:
+[10, 20, 30, 40]
+
+2️⃣ extend()
+      Adds multiple elements to the list.
+Example:
+a = [10, 20]
+a.extend([30, 40])
+print(a)
+Output:
+[10, 20, 30, 40]
+
+3️⃣ insert()
+      Adds an element at a specific index.
+Example:
+a = [10, 30, 40]
+a.insert(1, 20)
+print(a)
+Output:
+[10, 20, 30, 40]
+
+4️⃣ pop()
+    Removes and returns the last element.
+Example:
+a = [10, 20, 30]
+a.pop()
+print(a)
+Output:
+[10, 20]
+
+5️⃣ remove()
+      Removes a specific value from the list.
+Example:
+a = [10, 20, 30]
+a.remove(20)
+print(a)
+Output:
+[10, 30]
+
+6️⃣ sort()
+    Sorts the list in ascending order.
+Example:
+a = [40, 10, 30, 20]
+a.sort()
+print(a)
+Output:
+[10, 20, 30, 40]
+
+7️⃣ reverse()
+      Reverses the order of the list.
+Example:
+a = [1, 2, 3]
+a.reverse()
+print(a)
+Output:
+[3, 2, 1]
+
+8️⃣ clear()
+      Removes all elements from the list.
+Example:
+a = [10, 20, 30]
+a.clear()
+print(a)
+Output:
+[]
+
+9️⃣ copy()
+    Creates a shallow copy of the list.
+Example:
+a = [10, 20, 30]
+b = a.copy()
+print(b)
+Output:
+[10, 20, 30]
+
+
+
+
+
