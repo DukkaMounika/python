@@ -8,13 +8,6 @@ Representation using square brackets []
 Ability to store multiple data types
 Mutability of lists
 
-2. Why Lists Are Mutable
-
-Explanation of memory behavior
-
-Role of Python built-in functions for modifying lists
-
-
 
 3. List Built-in Functions
 
